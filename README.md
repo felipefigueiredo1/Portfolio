@@ -1,4 +1,4 @@
-# portfolios
+# Portfólio
 Portfólio para apresentação de projetos.
 
 Segue o link com o portfólio mostrando meus principais projetos 
