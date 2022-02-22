@@ -91,9 +91,7 @@ section {
     margin-bottom: 10px;
 }
 .projeto {
-    border: 1px inset #4f7575;
-    height: 200px;
-    border-radius: 15px;
+    margin-bottom: 20px;
 }
 #conhecimentos img{
     margin: 30px;
@@ -130,6 +128,16 @@ footer p{
     font-size: 18px;
     padding-top: 7px;
 }
+.links-projetos{
+    text-decoration: none;
+}
+.links-projetos p:hover{
+    color:orange;
+}
+.img-fluid{
+    border-radius: 30px;
+    height: 300px;
+}
 @media screen and (max-width: 480px) {
     nav ul li {
         text-align: center;
@@ -137,8 +145,8 @@ footer p{
     }
 
     #um{
-    width: 200px;
-    height: 220px;
+    width: 230px;
+    height: 300px;
     border-radius: 100px;
     border: 3px inset orange;
     }
@@ -185,5 +193,12 @@ footer p{
     #fixed{
         position: static;
         border-bottom: none;
+    }
+    .img-fluid{
+        height: 150px;
+        width: 250px;
+    }
+    #imgs{
+        text-align: center;
     }
 }
